@@ -76,7 +76,7 @@ export const projects = [
     id: '3',
     title: "Prévision de la demande",
     description: "Modèles de séries temporelles pour anticiper les ventes et optimiser l’inventaire.",
-    image: '/Previous .png',
+    image: '/Previous_.png',
     technologies: ['Python', 'Scikit-learn', 'Stats', 'Time Series Analysis']
   },
   
