@@ -5,7 +5,7 @@ export const personalInfo = {
   location: 'Morocco, Oujda',
   email: 'aymaneouabdelmoumen@gmail.com',
   phone: '+212 709915773',
-  avatar: 'Moumen.jpg',
+  avatar: '/Moumen.jpg',
 };
 
 export const skills = [
@@ -62,21 +62,21 @@ export const projects = [
     id: '1',
     title: 'Analyse d’images par IA',
     description: "Classification, détection d'objets et segmentation d’images via TensorFlow et PyTorch.",
-    image: 'analuseur.png',
+    image: '/analuseur.png',
     technologies: ['Python', 'TensorFlow', 'PyTorch', 'OpenCV', 'Docker']
   },
   {
     id: '2',
     title: "Tableau de bord d'analyse de données",
     description: "Création d’un dashboard interactif de KPIs métiers avec Power BI et PostgreSQL.",
-    image: 'TAbleau.jpg',
+    image: '/TAbleau.jpg',
     technologies: ['Tableau', 'Power BI', 'Python', 'PostgreSQL']
   },
   {
     id: '3',
     title: "Prévision de la demande",
     description: "Modèles de séries temporelles pour anticiper les ventes et optimiser l’inventaire.",
-    image: 'previous .png',
+    image: '/Previous .png',
     technologies: ['Python', 'Scikit-learn', 'Stats', 'Time Series Analysis']
   },
   
@@ -84,14 +84,14 @@ export const projects = [
     id: '4',
     title: "FlowCell - Intelligence Artificielle",
     description: "Équipe spécialisée dans l'utilisation de l'IA et de l'apprentissage automatique pour traiter des données, faire des prédictions, et proposer des solutions innovantes.",
-    image: "flowcell.jpg",
+    image: "/flowcell.jpg",
     technologies: ['Python', 'Scikit-learn', 'TensorFlow', 'Analysis', 'Predictions']
   },
   {
     id: '5',
     title: "Zoravision - Détection des Déchets sur les Plages",
     description: "Équipe utilisant des drones, l'intelligence artificielle et le modèle YOLOv8 pour détecter et classifier les déchets afin d'améliorer l'efficacité du nettoyage des plages.",
-    image: "drone.jpg",
+    image: "/drone.jpg",
     technologies: ['Python', 'YOLOv8', 'OpenCV', 'Drones', 'Object Detection']
   },
 ];
